@@ -54,6 +54,7 @@ void shell_sort(vector<int> & arr, int k) {
 			arr[j] = num;
 		}
 	}
+	delete[] shells;
 }
 
 // heap sort
