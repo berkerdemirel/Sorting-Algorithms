@@ -4,10 +4,10 @@
 
 
 // insertion sort
-void insertion_sort(vector<int> & arr, int start = 0, int end = -1) {
-	int * a = arr.data();
+void insertion_sort(vector<int> & a, int start = 0, int end = -1) {
+	int * arr = a.data();
 	if (end == -1)
-		end = arr.size();
+		end = a.size();
 	for (int i = start + 1; i < end; ++i) {
 		int num = arr[i];
 		int j = i;
